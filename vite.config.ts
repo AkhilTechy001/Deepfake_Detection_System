@@ -20,7 +20,11 @@ export default defineConfig({
     // Tailwind is not being actively used – do not remove them
     react(),
     tailwindcss(),
+    
   ],
+
+  base : '/Deepfake_Detection_System',
+
   resolve: {
     alias: {
       // Alias @ to the src directory
