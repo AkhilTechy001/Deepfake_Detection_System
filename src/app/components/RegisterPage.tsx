@@ -57,10 +57,10 @@ const handleGoogleLogin = async () => {
 
       strategy: "oauth_google",
 
-      redirectUrl: "https://akhiltechy001.github.io/Deepfake_Detection_System/sso-callback",
+      redirectUrl: "/sso-callback",
 
 
-      redirectUrlComplete: "https://akhiltechy001.github.io/Deepfake_Detection_System/dashboard",
+      redirectUrlComplete: "/dashboard",
     });
 
   } catch (err: any) {
