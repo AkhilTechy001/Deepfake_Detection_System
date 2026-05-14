@@ -5,6 +5,7 @@ import {
   Routes,
   Route,
   Navigate,
+  HashRouter,
 
 } from "react-router";
 
@@ -32,7 +33,7 @@ export default function App() {
 
   return (
 
-    <BrowserRouter>
+    <HashRouter>
 
       <Routes>
 
@@ -81,6 +82,6 @@ export default function App() {
 
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
