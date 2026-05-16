@@ -4,6 +4,7 @@ import { LoginPage } from './components/LoginPage';
 import { RegisterPage } from './components/RegisterPage';
 import { DashboardPage } from './components/DashboardPage';
 import { NotFoundPage } from './components/NotFoundPage';
+import { ForgotPasswordPage } from './components/ForgotPasswordPage';
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
   {
     path: '*',
     Component: NotFoundPage,
+  },
+  {
+    path:'/ForgotPasswordPage',
+    Component: ForgotPasswordPage,
   },
 ]);
 
