@@ -17,11 +17,10 @@ ReactDOM.createRoot(
     <ClerkProvider
       publishableKey={clerkPubKey}
     >
-       <BrowserRouter>
+       
+      <App />
 
-       <App />
-
-       </BrowserRouter>
+       
 
     </ClerkProvider>
 
