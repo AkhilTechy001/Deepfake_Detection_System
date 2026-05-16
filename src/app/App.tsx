@@ -33,7 +33,7 @@ export default function App() {
 
   return (
 
-    <HashRouter>
+    <BrowserRouter>
 
       <Routes>
 
@@ -82,6 +82,6 @@ export default function App() {
 
       </Routes>
 
-    </HashRouter>
+    </BrowserRouter>
   );
 }

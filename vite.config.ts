@@ -23,8 +23,6 @@ export default defineConfig({
     
   ],
 
-  base : '/Deepfake_Detection_System',
-
   resolve: {
     alias: {
       // Alias @ to the src directory
