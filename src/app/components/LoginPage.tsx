@@ -74,7 +74,7 @@ const handleGoogleLogin = async () => {
 
 ///// FORGOT PASSWORD ///
 const handleForgotPassword = async () => {
-  navigate("/ForgotPasswordPage");
+  navigate("/forgot-password");
 };
 
 
