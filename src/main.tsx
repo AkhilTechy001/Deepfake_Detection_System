@@ -4,6 +4,7 @@
   import { ClerkProvider } from "@clerk/clerk-react";
   import "./styles/index.css";
   import App from "./app/App.tsx";
+import { BrowserRouter } from "react-router";
 
 const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -16,8 +17,11 @@ ReactDOM.createRoot(
     <ClerkProvider
       publishableKey={clerkPubKey}
     >
+       <BrowserRouter>
 
-      <App />
+       <App />
+
+       </BrowserRouter>
 
     </ClerkProvider>
 
