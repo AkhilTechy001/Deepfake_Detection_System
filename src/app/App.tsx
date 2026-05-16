@@ -5,7 +5,6 @@ import {
   Routes,
   Route,
   Navigate,
-  HashRouter,
 
 } from "react-router";
 
@@ -28,6 +27,7 @@ from "./components/RegisterPage.tsx";
 
 import { DashboardPage }
 from "./components/DashboardPage";
+import { ForgotPasswordPage } from "./components/ForgotPasswordPage.tsx";
 
 export default function App() {
 
@@ -61,6 +61,10 @@ export default function App() {
           element={
             <AuthenticateWithRedirectCallback />
           }
+        />
+        <Route
+          path="/forgot-password"
+          element={<ForgotPasswordPage />}
         />
 
         {/* PROTECTED DASHBOARD */}
