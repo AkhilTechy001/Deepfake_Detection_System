@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
     Component: NotFoundPage,
   },
   {
-    path:'/ForgotPasswordPage',
+    path:'/forgot-password',
     Component: ForgotPasswordPage,
   },
 ]);
