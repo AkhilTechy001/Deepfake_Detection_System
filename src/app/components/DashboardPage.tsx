@@ -77,7 +77,7 @@ export function DashboardPage() {
     const formData = new FormData();
     formData.append("file", selectedFile);
 
-    const response = await fetch("http://localhost:5000/analyze", {
+    const response = await fetch("https://deepfake-ai-backend.onrender.com/analyze", {
       method: "POST",
       body: formData,
     });
